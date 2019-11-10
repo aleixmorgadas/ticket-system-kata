@@ -10,9 +10,15 @@ The kata is meant to be done in 3 or more consecutive sessions.
 
 Analysis phase. We will use different techniques to find the essential domain complexity and draw the different bounded contexts.
 
+The created artifacts are used for the next sessions. They can be changed in any moment when necessary.
+
 2. [**Session II**. Domain Implementation][session-2].
 
+Start implementing the actual application behavior.
+
 3. [**Session III**. Validating Architectural decisions using persistance layers. A real environment][session-3].
+
+Verification that the constrains on a real environment are met.
 
 ### Starting Technologies
 
@@ -21,11 +27,13 @@ Analysis phase. We will use different techniques to find the essential domain co
 - JUnit 5
 - [Spring Boot 2][springboot]
 - Docker & Docker Compose
+- [Test Containers][testcontainers] if needed
 
 ### Practices
 
 - Test-Driven Development
 - Continuous Integration
+- Outside-In or Inside-out strategies
 
 For Domain analysis and discovery, we might practice:
 
@@ -65,3 +73,4 @@ Since the demand is high and the space available reduced, the stakeholders asked
 [springboot]: https://spring.io/projects/spring-boot
 [wps]: https://www.wps.de/modeler/
 [wps-file]: ./doc/supporting-images/storytelling.dst
+[testcontainers]: https://www.testcontainers.org/
